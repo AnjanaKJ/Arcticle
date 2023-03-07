@@ -1,0 +1,6 @@
+{% extends 'base.html' %}
+{% block content %}
+<p>Name :{%if object.name%}{{object.name}}{%endif%}</p>
+<p>Email :{%if object.email%}{{object.email}}{%endif%}</p>
+<p>Article :{%if object.des%}{{object.des}}{%endif%}</p>
+{% endblock%}
